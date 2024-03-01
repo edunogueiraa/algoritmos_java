@@ -3,13 +3,13 @@ import java.util.*;
 public class Soma {
     public static void main(String[] args) {
         
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Digite um numero: ");
-        int n1 = sc.nextInt();
+        int n1 = input.nextInt();
 
         System.out.print("Digite outro numero: ");
-        int n2 = sc.nextInt();
+        int n2 = input.nextInt();
 
         int soma = n1 + n2;
 
